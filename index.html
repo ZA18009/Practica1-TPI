@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica1-TPI</title>
+    <title>HospitalTPI</title>
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+            <div class="contenedor">
+                <div class="barra">
+                    <a href="index.html" class="logo no-margin centrar-texto">
+                        <h1 class="logo__nombre">Hospital<span class="logo__bold">UES</span></h1>
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div><!-- .contenedor -->
+            <div class="header__texto">
+            <h2 class="no-margin">Hospital de la UES</h2>
+            <p class="no-margin">Centro Hospitalario de la Universidad de El Salvador</p>
+            </div> 
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img src="img/blog1.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Peso saludable y sus beneficios</h4>
+                    <p>Aunque muchas veces se crea que el cuidado del peso se asocia sólo a lo estético, lo cierto es que hay una gran relación entre peso y salud.
+
+                        De hecho, un peso saludable es sumamente importante para el bienestar en general, ya que le permitirá prevenir y controlar diferentes afecciones, le ayudará a sentirse bien y tener más energía.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article> 
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img src="img/blog2.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">2021: Para cuidar tu salud</h4>
+                    <p>Entre los propósitos del inicio de un nuevo año siempre están presentes mejorar la alimentación, bajar de peso, hacer ejercicio, pasar más tiempo en familia, alejarse del estrés, etc. La intención es clara: mejorar la salud y el bienestar.
+
+                        El año pasado se ha visto la importancia de cuidar la salud y este segundo año de la pandemia también será vital. Incluso, desde la Organización Mundial de la Salud advierten que el 2021 podría ser más duro (por la propagación del coronavirus y por las variantes más infecciosas).</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img src="img/blog3.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">El sueño: base de los hábitos saludables</h4>
+                    <p>Los adultos deben dormir al menos 7 horas cada noche para sentirse descansados, aunque algunos necesitan más horas (entre 7 y 9 horas).
+
+                        Un 25% de la población sufre de insomnio, que es la incapacidad para conciliar el sueño y permanecer dormido toda la noche. En algunos casos puede relacionarse con depresión o ansiedad y en estos casos se debe consultar con un psicólogo.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Conoce más</h3>
+            <ul class="lateral no-padding">
+                <li class="widget-lateral">
+                    <h4 class="no-ma">Peligros de automedicarse</h4>
+                    <p class="widget-lateral__label">Toxicidad:
+                        <span class="widget-lateral__info">efectos secundarios, reacciones adversas y en algún caso intoxicación</span>
+                    </p>
+                    <p class="widget-lateral__label">Falta de efectividad:
+                        <span class="widget-lateral__info">porque se utilizan en situaciones no indicadas.</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Mas Informacion</a>
+                </li>
+                <li class="widget-lateral">
+                    <h4 class="no-ma">Sintomas covid</h4>
+                    <p class="widget-lateral__label">Fiebre
+                    </p>
+                    <p class="widget-lateral__label">Tos seca
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Mas Informacion</a>
+                </li>
+            </ul>
+        </aside>
+    </div> <!-- .contenedor .contenido-principal -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logof no-margin centrar-texto">
+                    <h1 class="logo__nombre">Hospital<span class="logo__bold">UES</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
