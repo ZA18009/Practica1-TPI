@@ -1,0 +1,15 @@
+body{
+    margin: 0%;
+}
+.imagen_hospital{
+    display: ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.text-center{
+    text-align: center;
+
+}
