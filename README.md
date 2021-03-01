@@ -1,13 +1,10 @@
-# Practica1-TPI
+# Practica1-TPI<br/><br/>
 
-Sitio web de un hospital 
+Sitio web de un hospital <br/>
 
-Integrantes:
-Daniel Enrique Acuña Valdivieso AV18036
-Fernando Amilcar Galicia Cáceres GC18076
-Noe Francisco Martínez Ruiz MR18116
-Melvin Ernesto Portillo Merlos PM18008
+Integrantes:<br/>
+Daniel Enrique Acuña Valdivieso AV18036<br/>
+Fernando Amilcar Galicia Cáceres GC18076<br/>
+Noe Francisco Martínez Ruiz MR18116<br/>
+Melvin Ernesto Portillo Merlos PM18008<br/>
 Harold José Zarco Alvarenga ZA18009
-
-
-
